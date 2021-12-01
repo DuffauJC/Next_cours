@@ -1,0 +1,22 @@
+.titre{
+    text-align: center;
+    margin: 10px 0; 
+}
+
+.tableau{
+   margin :0 auto; 
+   font-size: 20px;
+}
+
+.tableau tr{
+    border: 1px solid #333;
+}
+
+.tableau td{
+    padding: 10px;
+    text-align: center;
+    min-width: 200px;
+}
+.tableau tr td:nth-child(1){
+border-right: #333 1px solid;
+}
